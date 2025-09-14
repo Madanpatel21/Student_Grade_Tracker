@@ -29,8 +29,6 @@ public class Student_Tracker {
                 default -> System.out.println("Invalid choice. Try again.");
             }
 		}while(choice!=5);
-            	
-		
 	}
 	private static void addStudent() {
         System.out.print("Enter student name: ");
@@ -85,7 +83,6 @@ public class Student_Tracker {
 	            System.out.println("-----------------------------");
 	        }
 	    }
-
 	 private static Student findStudent(String name) {
 		// TODO Auto-generated method stub
 		 for (Student s : students) {
@@ -96,8 +93,5 @@ public class Student_Tracker {
 	    }
 		return null;
 	 }
-
-
-
-
 }
+
