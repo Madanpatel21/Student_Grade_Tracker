@@ -6,6 +6,7 @@ public class chatbot {
 	
 	private static final HashMap<String, String> Siri=new HashMap<>();
 		static {
+            Siri.put("good morning", "good morning , let the day begin with happiness!!");
 			 Siri.put("good evening", "good evening , Hope all is well!!");
 			 Siri.put("hello", "Hello! I am a simple rule-based bot. How can I help you today?");
 		     Siri.put("hi", "Hello there! Ask me about our operating hours or services.");
